@@ -1,6 +1,6 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import Home from "../views/Home.vue";
+/*import Home from "../views/Home.vue";*/
 import telaInicial from "../views/register/telaInicial.vue";
 import cadastro from "../views/register/Cadastro.vue";
 import pagina1 from "../views/register/Pagina1.vue";
@@ -14,8 +14,8 @@ const routes = [
     children: [
       {
         path: "/",
-        name: "Home",
-        component: Home,
+        name: "TelaInicial",
+        component: telaInicial,
       }
     ]
     
